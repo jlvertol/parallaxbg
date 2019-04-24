@@ -21,6 +21,8 @@ In Fedora: `SDL2-devel` and `SDL2_image-devel`
 When you're done with that, clone this repository and use `cargo build` on the base directory to build the application.
 The compiler will inform you if you're missing dependencies.
 
+I have only tested this on 64-bit systems, but the files are there to allow it to build on 32-bit systems as well.
+
 Testing
 -------
 
@@ -28,8 +30,6 @@ Just run `cargo test` on the base directory to run all the unit tests.
 
 Running the application
 -----------------------
-
-You need a 64-bit system.
 
 Use `cargo run` on the base directory and follow the instructions at the header of the window
 to see a horrifyingly ugly but very efficient parallax background drawn into the screen canvas.
