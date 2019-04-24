@@ -1,0 +1,12 @@
+[package]
+name = "parallaxbg"
+version = "1.0.0"
+authors = ["jlvertol"]
+build = "build.rs"
+
+[dependencies]
+rand = "0.6.1"
+
+[dependencies.sdl2]
+version = "0.31.0"
+features = ["unsafe_textures", "image"]
