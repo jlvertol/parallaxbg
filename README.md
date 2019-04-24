@@ -6,6 +6,11 @@ To prospective employers
 This is a small excerpt from the source code of the game I'm developing in Rust, turned into a feature demo.
 widgets.rs is meant to contain other widget data structures and traits, but here you only get to see one.
 
+Video
+-----
+
+If you just want to see the application running, there's a small sample video in the base directory.
+
 Building
 --------
 
