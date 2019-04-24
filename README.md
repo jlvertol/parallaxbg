@@ -18,8 +18,8 @@ In Ubuntu: `libsdl2-dev` and `libsdl2-image-dev`
 
 In Fedora: `SDL2-devel` and `SDL2_image-devel`
 
-When you're done with that, use `cargo build` on the base directory to build the application. The compiler will
-inform you if you're missing dependencies.
+When you're done with that, clone this repository and use `cargo build` on the base directory to build the application.
+The compiler will inform you if you're missing dependencies.
 
 Testing
 -------
