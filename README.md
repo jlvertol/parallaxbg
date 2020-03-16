@@ -16,9 +16,15 @@ https://www.rust-lang.org/tools/install
 
 Additionally, if you're using Linux, you have to install SDL2 and SDL2-image development versions in your distribution.
 
-In Ubuntu: `libsdl2-dev` and `libsdl2-image-dev`
+On Ubuntu:
+```
+sudo apt-get install libsdl2-dev libsdl2-image-dev
+```
 
-In Fedora: `SDL2-devel` and `SDL2_image-devel`
+On Fedora (as root):
+```
+dnf install SDL2-devel SDL2_image-devel
+```
 
 When you're done with that, clone this repository and use `cargo build` on the base directory to build the application.
 The compiler will inform you if you're missing dependencies.
